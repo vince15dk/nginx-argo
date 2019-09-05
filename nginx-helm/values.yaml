@@ -9,5 +9,5 @@ image:
   tag: 1.17.3
 
 service:
-  nodeport: 30087
+  nodeport: 30089
 
