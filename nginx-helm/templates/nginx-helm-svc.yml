@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-helm-svc
+  namespace: nginx-helmchart
+spec:
+   type: NodePort
+   selector:
+     helm: nginx
+   ports:
+   - port: 80
+     targetPort: 80
+     nodePort: {{ .Values.service.nodeport }}
+     protocol: TCP

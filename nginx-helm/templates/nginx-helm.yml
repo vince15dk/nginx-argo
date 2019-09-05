@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-helm-deployment
+  namespace: nginx-helmchart
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+     matchLabels:
+       app: nginx
+       helm: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+        helm: nginx
+    spec:
+      containers:
+       - image: "nginx:{{ .Values.image.tag }}"
+         name: nginx-helm
+         ports:
+         - containerPort: 80
