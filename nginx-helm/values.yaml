@@ -1,12 +1,17 @@
 # Default values for nginx-helm.
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
+nginx1:
+  replicaCount: 3
+  image:
+    repository: nginx
+    tag: 1.17.1-alpine
 
-replicaCount: 3
-
-image:
-  repository: nginx
-  tag: 1.17.1-alpine
+nginx2:
+  replicaCount: 2
+  image:
+    repository: nginx
+    tag: 1.17.1
 
 service:
   nodeport: 30082

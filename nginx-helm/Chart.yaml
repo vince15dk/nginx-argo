@@ -3,4 +3,4 @@ appVersion: "1.0"
 description: A Helm chart for Kubernetes for nginx with replica "5", version 1.17-alpine
   and nodePort "30082"
 name: nginx-helm
-version: 0.1.6
+version: 0.1.7
