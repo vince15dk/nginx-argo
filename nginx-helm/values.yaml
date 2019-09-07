@@ -5,14 +5,13 @@ nginx1:
   replicaCount: 3
   image:
     repository: nginx
-    tag: 1.17.1-alpine
+    tag: 1.17.3
 
 nginx2:
   replicaCount: 2
   image:
     repository: nginx
-    tag: 1.17.1
+    tag: 1.17.3
 
 service:
   nodeport: 30082
-
