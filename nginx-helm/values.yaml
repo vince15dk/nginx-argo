@@ -6,12 +6,14 @@ nginx1:
   image:
     repository: nginx
     tag: 1.17.3
+  service:
+    nodeport: 30082
 
 nginx2:
   replicaCount: 2
   image:
     repository: nginx
     tag: 1.17.3
+  service:
+    nodeport: 30083
 
-service:
-  nodeport: 30082
