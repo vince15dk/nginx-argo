@@ -3,11 +3,20 @@ entries:
   nginx-helm:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T01:16:15.277012228Z"
+    created: "2019-09-07T01:43:06.987402905Z"
+    description: A Helm chart for Kubernetes for nginx1 anginx2 with values2.yaml
+    digest: 222f42a907c3e56b13a075671a97cf66d429957f818d0f4c74a7e28aa4a730e1
+    name: nginx-helm
+    urls:
+    - nginx-helm-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-09-07T01:43:06.987061145Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2
     digest: 17212fdd4106dd82281956524256ff5082de21134034b95af5efa844912cf358
     name: nginx-helm
     urls:
     - nginx-helm-0.2.0.tgz
     version: 0.2.0
-generated: "2019-09-07T01:16:15.276128321Z"
+generated: "2019-09-07T01:43:06.986437925Z"
