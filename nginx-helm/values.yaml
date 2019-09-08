@@ -5,15 +5,23 @@ nginx1:
   replicaCount: 3
   image:
     repository: nginx
-    tag: 1.17.3
+    tag: 1.17.3-alpine
   service:
-    nodeport: 30082
+    nodeport: 30084
 
 nginx2:
-  replicaCount: 2
+  replicaCount: 3
   image:
     repository: nginx
-    tag: 1.17.3
+    tag: 1.17.3-alpine
   service:
-    nodeport: 30083
+    nodeport: 30086
+
+nginx3:
+  replicaCount: 3
+  image:
+    repository: nginx
+    tag: 1.17.3-alpine
+  service:
+    nodeport: 30087
 

@@ -2,8 +2,17 @@ apiVersion: v1
 entries:
   nginx-helm:
   - apiVersion: v1
+    appVersion: "2.0"
+    created: "2019-09-08T10:24:53.260992645Z"
+    description: A Helm chart for Kubernetes for nginx
+    digest: 848c3d4bd4da20f0a7acb220534323ad452c96f4b2ea5ceb06047b55795a9a08
+    name: nginx-helm
+    urls:
+    - nginx-helm-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T09:35:03.512755713Z"
+    created: "2019-09-08T10:24:53.260616621Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2 and nginx3 with values2.yaml
       and values3.yaml
     digest: f59fcc3de9b53e37a30266c4914a7bf7a821c30494b2724d7970ef9b2e1cd02c
@@ -13,7 +22,7 @@ entries:
     version: 0.2.4
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T09:35:03.51216287Z"
+    created: "2019-09-08T10:24:53.260216663Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2 with values2.yaml
     digest: e04ab138745a46b82f1aeec4b6dbcb5f90b66f62bcbe47bb3734d787e9a0d781
     name: nginx-helm
@@ -22,7 +31,7 @@ entries:
     version: 0.2.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T09:35:03.511717923Z"
+    created: "2019-09-08T10:24:53.259836678Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2 and nginx3 with values2.yaml
       and values3.yaml
     digest: 03a7e29bb26c525a0f94433536972b932775fc5433bb48990c34e3d3957adb61
@@ -32,7 +41,7 @@ entries:
     version: 0.2.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T09:35:03.511324609Z"
+    created: "2019-09-08T10:24:53.259408483Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2 with values2.yaml
     digest: 222f42a907c3e56b13a075671a97cf66d429957f818d0f4c74a7e28aa4a730e1
     name: nginx-helm
@@ -41,11 +50,11 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-09-07T09:35:03.510987677Z"
+    created: "2019-09-08T10:24:53.259071058Z"
     description: A Helm chart for Kubernetes for nginx1 anginx2
     digest: 17212fdd4106dd82281956524256ff5082de21134034b95af5efa844912cf358
     name: nginx-helm
     urls:
     - nginx-helm-0.2.0.tgz
     version: 0.2.0
-generated: "2019-09-07T09:35:03.510087865Z"
+generated: "2019-09-08T10:24:53.258460527Z"

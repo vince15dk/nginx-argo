@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-helm-deployment2
-  namespace: nginx-helmchart
+  namespace: mynginx
 spec:
   replicas: {{ .Values.nginx2.replicaCount }}
   selector:

@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-helm-svc
-  namespace: nginx-helmchart
+  namespace: mynginx
 spec:
    type: NodePort
    selector:
